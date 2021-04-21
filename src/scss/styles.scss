@@ -52,11 +52,21 @@
     }
 }
 
+
+@media (max-width: 1200px) {
+    .back-main:after{
+        width: 30%;
+        top: -5%;
+
+    }
+
+}
 @media (max-width: 650px) {
 
     .back-main{
             &::after{
                 width: 190px;
+                top:0;
             }
             &:before{
                 height: 100vh;
@@ -65,14 +75,6 @@
     .navBg{
         margin-top: 10%;
     }
-}
-@media (max-width: 1200px) {
-    .back-main:after{
-        width: 30%;
-        top: -5%;
-
-    }
-
 }
 @media (min-width: 1300px) {
     .back-main:after{
