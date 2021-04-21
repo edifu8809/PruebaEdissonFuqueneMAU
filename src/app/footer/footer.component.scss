@@ -187,6 +187,7 @@ textarea {
     box-shadow: 0 8px 13px 0 rgba(0,0,0,0.32);
     border-radius: 100%;
     cursor: pointer;
+    z-index: 9;
 }
 .icon-chat{
     background-image: url(../../assets/images/chat.svg);
@@ -197,6 +198,16 @@ textarea {
 
 }
 @media (max-width: 650px) {
+    .go_chat{
+        width: 80px;
+        height: 80px;
+
+    }
+    .icon-chat{
+        width: 80px;
+        height: 80px;
+        background-size: 100%;
+    }
     .rounded-social-buttons{
         display: flex;
         justify-content: center; 
